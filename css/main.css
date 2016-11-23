@@ -299,6 +299,10 @@ nav a {
 	font-family: proximaNovaLight;
 }
 
+strong {
+	font-family: proximaNovaSemiBold;
+}
+
 /* turn caret */
 
 .caret-normal-left {
