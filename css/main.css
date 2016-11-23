@@ -257,6 +257,10 @@ hr.light {
 	border-radius: 0px;
 }
 
+.navbar {
+    margin-bottom: 0;
+}
+
 /* turn caret */
 
 .caret-normal-left {
