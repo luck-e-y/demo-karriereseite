@@ -57,9 +57,9 @@
     </head>
     <body>
 		
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-default" style="background-color: rgba(0,0,0,0.5); border-color: transparent;">
 
-			<div class="container-fluid">
+			<div class="container-fluid" style="background-color: transparent;">
 
 				<!-- Brand and toggle get grouped for better mobile display -->
 
@@ -72,7 +72,7 @@
 					  <span class="icon-bar"></span>
 					</button>
 
-					<a class="navbar-brand" href="#">Mustermann</a>
+					<a class="navbar-brand" href="#"><img class="img-responsive" style="max-width: 180px;" src="img/company-logo.svg"></a>
 
 				</div>
 
@@ -80,14 +80,17 @@
 
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-					<ul class="nav navbar-nav">
-						<li><a href="#">Link</a></li>	
+					<ul class="nav navbar-nav nav-links" style="margin-left: 50px;">
+						<li><a href="#about-us">WARUM WIR</a></li>
+						<li><a href="#vacancies">JOBANGEBOTE</a></li>
+						<li><a href="#contact">KONTAKT</a></li>
+						
 					</ul>
 
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="en/"><img src="img/flags/United-Kingdom.png" width="25px"></a></li>
+						<li><a href="en/" style="font-weight: 300;">EN</a></li>
 					  <li style="margin-top: 12px; color: #fff;">|</li>
-					  <li><a href="de/"><img src="img/flags/Germany.png" width="25px"></a></li>
+					  <li><a href="de/" style="font-weight: 300;">DE</a></li>
 					</ul>
 
 				</div><!-- /.navbar-collapse -->
@@ -140,7 +143,7 @@
 
             </div>
       
-            <div class="row step-padding dark">
+            <div id="about-us" class="row step-padding dark">
 
                 <div class="col-md-12 text-center">
 					
@@ -198,7 +201,7 @@
 
             </div>
 			
-			<div class="row step-padding dark">
+			<div id="contact" class="row step-padding dark">
                 
                 <div class="col-md-6 col-md-offset-3 text-center">
                     <h2>Kontaktiere uns!</h2>

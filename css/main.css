@@ -1,5 +1,20 @@
+@font-face {
+    font-family: proximaNovaLight;
+    src: url(../fonts/proxima_nova/ProximaNova-Light-webfont.ttf);
+}
+
+@font-face {
+    font-family: proximaNovaSemiBold;
+    src: url(../fonts/proxima_nova/ProximaNova-Sbold-webfont.ttf);
+}
+
+@font-face {
+    font-family: proximaNovaBold;
+    src: url(../fonts/proxima_nova/ProximaNova-Bold-webfont.ttf);
+}
+
 body {
-    font-family: "Lato", "Serif";
+    font-family: proximaNovaLight;
     font-weight: 300;
     padding:0;
     margin:0;
@@ -77,7 +92,7 @@ video::-webkit-media-controls {
 }
 
 .headertext p {
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 300;
     color: #fff;
     margin: 30px 0 30px 0;
@@ -259,6 +274,29 @@ hr.light {
 
 .navbar {
     margin-bottom: 0;
+}
+
+nav a {
+	color: #fff!important;
+	font-weight: 600;
+	font-family: proximaNovaBold;
+}
+
+.nav-links {
+	font-size: 14px;
+	font-size: 13px;font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.navbar-right a {
+	font-family: proximaNovaLight;
+}
+
+.btn-cta {
+	font-weight: 700;
+	font-size: 15px;
+	letter-spacing: 1.8px;
+	font-family: proximaNovaLight;
 }
 
 /* turn caret */
