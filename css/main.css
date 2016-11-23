@@ -241,6 +241,10 @@ hr.light {
 	border-color: #fff;
 }
 
+.svg-image {
+	width: 90px;
+}
+
 /* turn caret */
 
 .caret-normal-left {
