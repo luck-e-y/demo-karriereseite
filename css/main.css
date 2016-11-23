@@ -245,6 +245,18 @@ hr.light {
 	width: 90px;
 }
 
+.media-body {
+	padding-left: 30px;
+}
+
+.media-heading {
+	margin-bottom: 20px;
+}
+
+.btn-primary {
+	border-radius: 0px;
+}
+
 /* turn caret */
 
 .caret-normal-left {
