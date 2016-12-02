@@ -8,8 +8,8 @@ function onYouTubeIframeAPIReady() {
       });
 }
 
-function onPlayerClick(event) {
-    event.target.playVideo();
+function onPlayerReady(event) {
+    // empty
 }
 
 
