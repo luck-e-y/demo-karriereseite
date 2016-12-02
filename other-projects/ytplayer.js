@@ -23,7 +23,10 @@ function seek(sec){
         seconds = sec;
         player.seekTo(seconds, true);
     }
-	if(playerTwo){
+}
+
+function seekTwo(sec){
+    if(playerTwo){
         seconds = sec;
         playerTwo.seekTo(seconds, true);
     }
