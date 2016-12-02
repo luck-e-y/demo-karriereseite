@@ -6,6 +6,11 @@ function onYouTubeIframeAPIReady() {
           'onReady': onPlayerReady
         }
       });
+	playerTwo = new YT.Player('playerTwo', {
+        events: {
+          'onReady': onPlayerReady
+        }
+	});
 }
 
 function onPlayerReady(event) {
@@ -18,4 +23,9 @@ function seek(sec){
         seconds = sec;
         player.seekTo(seconds, true);
     }
+	if(playerTwo){
+        seconds = sec;
+        playerTwo.seekTo(seconds, true);
+    }
 }
+
