@@ -9,13 +9,13 @@ function onYouTubeIframeAPIReady() {
 }
 
 function onPlayerReady(event) {
-    // empty
+    //empty
 }
 
 
 function seek(sec){
     if(player){
-        seconds += sec;
+        seconds = sec;
         player.seekTo(seconds, true);
     }
 }
