@@ -42,7 +42,7 @@ function seekTwo(sec){
 }
 
 function seekThree(sec){
-    if(playerTwo){
+    if(playerThree){
         seconds = sec;
         playerThree.seekTo(seconds, true);
 		console.log("player3");
