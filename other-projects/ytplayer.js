@@ -5,13 +5,13 @@ function onYouTubeIframeAPIReady() {
         events: {
           'onReady': onPlayerReady
         }
-		console.log("player");
+		
       });
 	playerTwo = new YT.Player('playerTwo', {
         events: {
           'onReady': onPlayerReady
         }
-		console.log("player2");
+		
 	});
 	
 }
@@ -25,6 +25,7 @@ function seek(sec){
     if(player){
         seconds = sec;
         player.seekTo(seconds, true);
+		console.log("player");
     }
 }
 
@@ -32,6 +33,7 @@ function seekTwo(sec){
     if(playerTwo){
         seconds = sec;
         playerTwo.seekTo(seconds, true);
+		console.log("player2");
     }
 }
 
