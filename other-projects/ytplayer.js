@@ -13,7 +13,7 @@ function onYouTubeIframeAPIReady() {
         }
 	});
 	
-	playerThree = new YT.Player('playerTwo', {
+	playerThree = new YT.Player('playerThree', {
         events: {
           'onReady': onPlayerReady
         }
