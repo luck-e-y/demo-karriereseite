@@ -1,0 +1,371 @@
+@font-face {
+    font-family: proximaNovaLight;
+    src: url(../fonts/proxima_nova/ProximaNova-Light-webfont.ttf);
+}
+
+@font-face {
+    font-family: proximaNovaSemiBold;
+    src: url(../fonts/proxima_nova/ProximaNova-Sbold-webfont.ttf);
+}
+
+@font-face {
+    font-family: proximaNovaBold;
+    src: url(../fonts/proxima_nova/ProximaNova-Bold-webfont.ttf);
+}
+
+body {
+    font-family: proximaNovaLight;
+    font-weight: 300;
+    padding:0;
+    margin:0;
+    font-size:16px;
+    line-height: 28px;
+    color: #333; 
+    background: #fff;
+	
+}
+
+
+h1 { font-size: 3em; line-height:1.2em; margin:0 0 .3em; font-weight: 300; }
+h2 { font-size: 1.8em; line-height:1.4em; margin:0 0 .3em; font-weight: 300; color: #333; }
+h3 { font-size: 1.4em; line-height:1.4em; font-weight: 300; }
+h4 { font-size: 1.25em; line-height:1.4em; font-weight: 300; }
+h5 { font-size: 1.1em; line-height:1.4em; font-weight: 300; }
+h6 { font-size: 1em; line-height:1.2em; font-weight: 300; }
+
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url('../img/poster.jpg') no-repeat center center;
+    background-size: cover;
+    
+}
+
+video::-webkit-media-controls {
+    display:none !important;
+}
+
+.table tbody tr th {
+    line-height: 35px!important;
+}
+
+.table tbody tr td {
+    line-height: 35px!important;
+}
+
+.container-fluid {
+    background-color: #FFF;
+}
+
+.step-padding {
+    padding: 40px 0;
+}
+.headertext {
+    padding: 120px 15px;
+    width: 100%;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.headertext h1 {
+    font-size: 56px;
+    font-weight: 300;
+    color: #fff;
+    margin: 30px 0 30px 0;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+
+.headertext h1 {
+    font-size: 56px;
+    font-weight: 300;
+    color: #fff;
+    margin: 30px 0 30px 0;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+
+.headertext p {
+    font-size: 19px;
+    font-weight: 300;
+    color: #fff;
+    margin: 30px 0 30px 0;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+
+.vs {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    padding: 10px 25px;
+}
+
+#left-list {
+    z-index: 111;
+    margin: 0 auto 25px auto; 
+    width: 100%;
+    text-align: left;
+}
+
+#right-list {
+    z-index: 111;
+    margin: 0 auto 25px auto; 
+    width: 100%;
+    text-align: left;
+}
+
+.select-list {
+    margin-top: 25px;
+}
+
+.select-list img {
+    height: 20px; 
+    margin: 4px;
+}
+
+table img {
+    height: 15px; 
+    margin: 7px;
+}
+
+#right-win img, #left-win img {
+    height: 45px;
+}
+
+
+.noborder-bottom {
+    border-bottom: 0px!important;
+    padding-bottom: 0px;
+}
+
+.noborder-top {
+    border-top: 0px!important;
+}
+
+.trophyLine {
+    line-height: 60px;
+    padding-bottom: 0px;
+}
+
+.green {
+    color: green;
+    font-size: 22px;
+}
+
+.red {
+    color: red;
+    font-size: 22px;
+}
+
+.comparison-table .col-md-3 {
+    width: 20%;
+}
+
+.dark {
+    background-color: #f9f9f9;
+}
+
+table th {
+    text-overflow: ellipsis; overflow: hidden;  max-width: 0; white-space: nowrap;
+    line-height: 27px!important;
+}
+
+.skip-text {
+    text-overflow: ellipsis; 
+    overflow: hidden; 
+    white-space: nowrap;
+}
+
+
+.footer {
+    height: 15%;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #666;
+}
+
+.close {
+    padding: 0px!important;
+    padding-top: 10px!important;
+    margin: -21px 0 0 0!important;
+    left: 300px; 
+    top: 0px; 
+    height: 40px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.close a {
+    padding: 0px!important;
+    padding-top: 10px!important;
+    margin: 0!important;
+    left: 300px; 
+    top: 0px; 
+    height: 40px;
+    width: 175px;
+    text-align: right;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: none;
+    text-decoration: none;
+    background-color: transparent
+}
+
+.close a:hover {
+    padding: 0px!important;
+    padding-top: 10px!important;
+    margin: 0!important;
+    left: 300px; 
+    top: 0px; 
+    height: 40px;
+    width: 175px;
+    text-align: right;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: none;
+    text-decoration: none;
+    background-color: transparent
+}
+
+.modal-open {
+    overflow: scroll;
+    padding: 0!important;
+}
+
+#mc_embed_signup .button {
+    background-color: #5cb85c!important;
+    border-color: #5cb85c!important;
+}
+
+hr {
+	max-width: 50px;
+    border-color: #333;
+    border-width: 3px;
+}
+
+hr.light {
+	border-color: #fff;
+}
+
+.svg-image {
+	width: 90px;
+}
+
+.media-body {
+	padding-left: 30px;
+}
+
+.media-heading {
+	margin-bottom: 20px;
+}
+
+.btn-primary {
+	border-radius: 0px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+nav a {
+	color: #fff!important;
+	font-weight: 600;
+	font-family: proximaNovaBold;
+}
+
+.nav-links {
+	font-size: 14px;
+	font-size: 13px;font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.navbar-right a {
+	font-family: proximaNovaLight;
+}
+
+.btn-cta {
+	font-weight: 700;
+	font-size: 15px;
+	letter-spacing: 1.8px;
+	font-family: proximaNovaLight;
+}
+
+strong {
+	font-family: proximaNovaSemiBold;
+}
+
+#unsolicitedApplication {
+	background: url('../img/lights.jpg') no-repeat top center;
+	text-align: center;
+}
+ 
+.btn-transparent {
+	background-color: transparent;
+	border: 2px solid #fff;
+	border-radius: 0;
+	text-transform: uppercase;
+}
+
+.btn-transparent:hover {
+	background-color: #fff;
+	border: 2px solid #fff;
+	border-radius: 0;
+	text-transform: uppercase;
+	color: #000!important;
+}
+
+.headertext .btn-transparent:hover {
+	background-color: transparent;
+	border: 2px solid #2980b9;
+	border-radius: 0;
+	text-transform: uppercase;
+	color: #fff!important;
+}
+
+/* turn caret */
+
+.caret-normal-left {
+
+}
+
+.caret-normal-right {
+
+}
+
+.caret-turn {  
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+    /* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5); */
+    -ms-transform:rotate(180deg);        
+}
+
+.modal-open .modal {
+background-color: rgba(0, 0, 0, 0.51);
+}
+
+@media screen and (max-width : 480px)  { 
+    table th {
+        font-size: 12px;
+    }
+    .headertext h1 {
+        font-size: 35px;
+    }
+    .mobile-padding {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+                .a2a_floating_style.a2a_vertical_style { display: none; }
+            }
